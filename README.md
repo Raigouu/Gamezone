@@ -46,7 +46,7 @@ During the cleaning process, below is the list of issues were found:
 			2. same order_id with different user_id
 		The total row of this issue is 145 rows, since it only represent 0.66% of the data, and there is no way of retrieving the truth of the data, so it is left as it is in order to not lose any value.
 	- purchase_ts:
-		There are inconsistencies in data format, where most rows are in DATE format, while some are in timestamp format (MM-DD-YYYY HH:MM:SS). Therefore, all data are converted into DATE format (MM/DD/YYYY)
+		There are inconsistencies and one blank value in the field, where most rows are in DATE format, while some are in timestamp format (MM-DD-YYYY HH:MM:SS). Therefore, all data are converted into DATE format (MM/DD/YYYY)
 	- ship_ts:
 		There are invalid dates in the column. Cases such as shipping time before purchase time. The total issue is 2,001 rows. Since there is no way of retrieving the truth of the data, it is left as is.
 	- product_name:
@@ -73,3 +73,16 @@ After joining the tables, there are 5 more errors in the data with value of EU a
 **Key Insights**
 			
 <img width="1682" height="667" alt="image" src="https://github.com/user-attachments/assets/ce61421a-7f88-4264-bb11-c52b26e3a905" />
+
+From the pivot table, it is found that the total sales during the COVID period (2019 - 2020), is $6.1m, with the best performing product being the gaming monitor (almost $2m in total sales) and the worst performing product is the Razer Pro gaming headset ($800).
+
+
+<img width="1379" height="141" alt="image" src="https://github.com/user-attachments/assets/5c4bac95-975b-404e-959e-b82bdb94e63f" />
+
+Focusing on the graphs of each product's performance, it is found that all products doubled in their sales during 2020. Moreover, the trends of every product are similar to one another, with peaks at the end of 2020 and a significant drop after.
+
+
+
+
+
+

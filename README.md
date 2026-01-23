@@ -100,7 +100,8 @@ This graph shows the product AOV with a focus on the top 3 products that contrib
 This graph shows the top 3 product shares by region, with NA dominating the sales of the top 3 products, followed by EMEA and APAC. Nintendo Switch contributed the most in sales in NA and EMEA, while the PS5 contributed the most in APAC and LATAM.
 
 <img width="1360" height="611" alt="image" src="https://github.com/user-attachments/assets/2979f69f-d864-45a7-bf0b-61a2d07ba0a0" />
-Product Share by Marketing Channel
+
+This graph shows the top 3 product shares by marketing channel, with direct sales overwhelming other marketing channels, followed by email and affiliate channels. This should be voiced to the marketing team to find other ways of promoting the company and/or get more exposure to gain more customers that will help generate more sales.
 
 
 

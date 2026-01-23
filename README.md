@@ -82,7 +82,11 @@ Peaks of total sales are similar in 2019 and 2020, with them happened at Septemb
 Focusing on the graphs of each product's performance, it is found that all products doubled in their sales during 2020. Moreover, the trends of every product are similar to one another, with peaks at the end of 2020 and a significant drop after.
 
 ### Product Analysis
-<img width="1313" height="775" alt="image" src="https://github.com/user-attachments/assets/999fb061-b69b-4006-af6b-98336a93bf51" />
+<img width="1203" height="859" alt="image" src="https://github.com/user-attachments/assets/43f53fd9-6dd8-410c-9b07-b67b0a0e4005" />
+
+Above is a dashboard created by Tableau. This dashboard intends to give an overview of product performance throughout the COVID period (2019 - 2020), with additional data for January and February 2021. Focusing on KPIs for the product team to help them make decisions on which products to focus on or to discontinue investing in. 
+
+
 
 
 

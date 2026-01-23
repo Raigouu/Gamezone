@@ -78,7 +78,7 @@ From the pivot table, it is found that the total sales during the COVID period (
 Peaks of total sales are similar in 2019 and 2020, with them happened at September and December. These occurrences might happen due to them being the start of school and/or holiday seasons, when promotions might be pushed further. Lastly, there seems to be a pattern where total sales tend to drop at the beginning of every new year; assumptions would be that there are no incentives to purchase products. Thus, resulting in the drop in total sales.
 
 <img width="1379" height="141" alt="image" src="https://github.com/user-attachments/assets/5c4bac95-975b-404e-959e-b82bdb94e63f" />
-<br>
+
 Focusing on the graphs of each product's performance, it is found that all products doubled in their sales during 2020. Moreover, the trends of every product are similar to one another, with peaks at the end of 2020 and a significant drop after.
 
 ### Product Analysis
@@ -92,7 +92,7 @@ This graph shows the sales by product with similar behavior throughout the years
 
 
 <img width="1230" height="615" alt="image" src="https://github.com/user-attachments/assets/9fe3d224-4d09-4e0e-a93a-1878d62a19be" />
-
+</>
 This graph shows the product AOV with a focus on the top 3 products that contributed the most to the total sales. The Gaming Monitor and the Nintendo Switch had stable pricing during the COVID period. On the other hand, the PS 5 bundle has fluctuated throughout the years. In 2019, the peak price was $1.859 in January, down to $1,482 in October. While in 2020, the peak price was $1.732 in January and dropped to $1.510 in May, but steadily rose to $1.710 in November. Most likely due to the high demand and/or promotions.
 
 

@@ -81,7 +81,8 @@ Peaks of total sales are similar in 2019 and 2020, with them happened at Septemb
 
 Focusing on the graphs of each product's performance, it is found that all products doubled in their sales during 2020. Moreover, the trends of every product are similar to one another, with peaks at the end of 2020 and a significant drop after.
 
-
+### Product Analysis
+<img width="1313" height="775" alt="image" src="https://github.com/user-attachments/assets/999fb061-b69b-4006-af6b-98336a93bf51" />
 
 
 

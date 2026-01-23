@@ -30,7 +30,8 @@ The main table of this dataset is the 'orders' table.
 The analysis result should be able to aid Gamezone's product team in making a decision on which product should be improved or discontinued due to its own performance. 
 
 **Data Preparation & Cleaning**
-During the cleaning process, below is the list of issues found:
+During the cleaning process, below is the list of issues were found:
+'order' table
 	- order_id:
 		Even though it is supposed to be the unique identifier, it has duplicates that can be divided into two categories.
 			1. same order_id with the same user_id
@@ -41,15 +42,23 @@ During the cleaning process, below is the list of issues found:
 	- ship_ts:
 		There are invalid dates in the column. Cases such as shipping time before purchase time. The total issue is 2,001 rows. Since there is no way of retrieving the truth of the data, it is left as is.
 	- product_name:
-		naming inconsistency in one product (27in 4k gaming monitor). All of the inconsistencies are converted into standardized naming, which is 27in 4k gaming monitor.
-	- usd_price
-	- marketing_channel
-	- account_creation_method
-	- country_code
+		Naming inconsistencies in one product (27in 4k gaming monitor). All of the inconsistencies are converted into standardized naming, which is 27in 4k gaming monitor.
+	- usd_price:
+		Found 34 rows of blank values and $0 for the price of some products. So, to not miss or delete any rows, all missing values are converted into $0, and there is no way of retrieving the data.
+	- marketing_channel:
+		Found 83 blank values in the field, but there are 'unknown' values beforehand. Therefore, all blanks are converted into 'unknown'.
+	- account_creation_method:
+		Found 83 blank values in the field, but there are 'unknown' values beforehand. Therefore, all blanks are converted into 'unknown'.
+	- country_code:
+		Found 37 blank values in the field, and they are converted into 'unknown' values.
+
+'region' table:
+	- region:
+		There are naming inconsistencies, missing values, and invalid values. For example, North America and NA, missing region codes for country codes IE and LB, and invalid values for country code MH and PG. 
+		Since, there is a way of retrieving the truth, these values are corrected into their respective region. IE and LB are included in EMEA, and MH and PG are included in APAC.
+
+After joining the tables, there are 5 more errors in the data with value of EU and AP. Therefore, the values in the country code are left as is, and the values in the region field are corrected into EMEA and APAC, respectively.
 
 
-
-
-
-
+**Key Insights**
 			

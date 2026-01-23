@@ -1,13 +1,13 @@
 # Gamezone
 Exploratory Data Analysis (EDA) and deep dive analysis of Gamezone's product performance during COVID (2019 - 2020).
 
-**Project Overview**
+## **Project Overview**
 
 This project aims to help Gamezone's product team by analyzing product performance during the COVID period (2019-2020) using Google Sheets as the main analysis tool and Tableau as the visualization tool. SQL is only used to show proficiency in using the tool. 
 
 KPIs such as overall sales, sales by product, AOV by product, Sales by Marketing Channel, Sales by Region, Top Product by Channel, and Top Product by Region are used as measurements to find which product performed best during the period. 
 
-**Dataset** 
+## **Dataset** 
 
 
 The dataset consists of 2 tables, which are 'orders' with a total row of 21,864 and 'region' with a total row of 193. In the table 'orders', with a grain of 1 row represents an order made by a customer. The table has columns of: 
@@ -31,11 +31,11 @@ In the table 'region', with a grain of 1 row represents the country code in a re
 
 The main table of this dataset is the 'orders' table.
 
-**Objectives**
+## **Objectives**
 
 The analysis result should be able to aid Gamezone's product team in making a decision on which product should be improved or discontinued due to its own performance. 
 
-**Data Preparation & Cleaning**
+## **Data Preparation & Cleaning**
 
 During the cleaning process, below is the list of issues were found:
 'order' table
@@ -67,17 +67,15 @@ During the cleaning process, below is the list of issues were found:
 		For example, North America and NA, missing region codes for country codes IE and LB, and invalid values for country code MH and PG.
 		Since there is a way to retrieve the truth, these values are corrected into their respective region. IE and LB are included in EMEA, and MH and PG are included in APAC.
 
-After joining the tables, there are 5 more errors in the data with value of EU and AP. Therefore, the values in the country code are left as is, and the values in the region field are corrected into EMEA and APAC, respectively.
+After joining the tables, there are 5 more errors in the data with values of EU and AP. Therefore, the values in the country code are left as is, and the values in the region field are corrected into EMEA and APAC, respectively.
 
 
-**Key Insights**
+## **Key Insights**
 			
 <img width="1751" height="669" alt="image" src="https://github.com/user-attachments/assets/8ade3557-21cc-4bf5-9024-1e57eb0a2647" />
 
-
-
 From the pivot table, it is found that the total sales during the COVID period (2019 - 2020) are $6.1 m, with the best performing product being the gaming monitor (almost $2m in total sales) and the worst performing product is the Razer Pro gaming headset ($800).
-Peaks of total sales are similar in 2019 and 2020, with them happened at September and December. These occurrences might happen due to them being the start of school and/or holiday seasons, when promotions might be pushed further.
+Peaks of total sales are similar in 2019 and 2020, with them happened at September and December. These occurrences might happen due to them being the start of school and/or holiday seasons, when promotions might be pushed further. Lastly, there seems to be a pattern where total sales tend to drop at the beginning of every new year; assumptions would be that there are no incentives to purchase products. Thus, resulting in the drop in total sales.
 
 <img width="1379" height="141" alt="image" src="https://github.com/user-attachments/assets/5c4bac95-975b-404e-959e-b82bdb94e63f" />
 

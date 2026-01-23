@@ -3,7 +3,7 @@ Exploratory Data Analysis (EDA) and deep dive analysis of Gamezone's product per
 
 ## **Project Overview**
 
-This project aims to help Gamezone's product team by analyzing product performance during the COVID period (2019-2020) using Google Sheets as the main analysis tool and Tableau as the visualization tool. SQL is only used to show proficiency in using the tool. Click the link to see the SQL data hygiene script.
+This project aims to help Gamezone's product team by analyzing product performance during the COVID period (2019-2020) using Google Sheets as the main analysis tool and Tableau as the visualization tool. SQL is only used to show proficiency in using the tool. Click the [link](https://github.com/Raigouu/Gamezone/tree/main/SQL%20scripts) to see the SQL data hygiene script.
 
 KPIs such as overall sales, sales by product, AOV by product, Sales by Marketing Channel, Sales by Region, Top Product by Channel, and Top Product by Region are used as measurements to find which product performed best during the period. 
 

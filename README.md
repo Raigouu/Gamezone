@@ -13,9 +13,7 @@ KPIs such as overall sales, sales by product, AOV by product, Sales by Marketing
 The dataset consists of 2 tables, which are 'orders' with a total row of 21,864 and 'region' with a total row of 193. In the table 'orders', with a grain of 1 row represents an order made by a customer. The table has columns of: 
 
 	- user_id
-	
 	- order_id
-	
 	- purchase_ts (purchase time stamp)
 	- ship_ts (shipping time stamp)
 	- product_name

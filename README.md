@@ -82,18 +82,18 @@ Peaks of total sales are similar in 2019 and 2020, with them happened at Septemb
 Focusing on the graphs of each product's performance, it is found that all products doubled in their sales during 2020. Moreover, the trends of every product are similar to one another, with peaks at the end of 2020 and a significant drop after.
 
 ### Product Analysis
-<img width="1203" height="859" alt="image" src="https://github.com/user-attachments/assets/43f53fd9-6dd8-410c-9b07-b67b0a0e4005" />
+<img width="1200" height="860" alt="image" src="https://github.com/user-attachments/assets/43f53fd9-6dd8-410c-9b07-b67b0a0e4005" />
 
 Above is a dashboard created by Tableau. This dashboard intends to give an overview of product performance throughout the COVID period (2019 - 2020), with additional data for January and February 2021. Focusing on KPIs for the product team to help them make decisions on which products to focus on or to discontinue investing in. 
 
 <img width="1230" height="615" alt="image" src="https://github.com/user-attachments/assets/8a1aaffe-6014-404d-bdf7-d52c9ccfcf2a" />
-Sales by Product
+This graph shows the sales by product with similar behavior throughout the years, peaking in September and December of each year (2019 - 2020) and then dropping significantly at the end of 2020. The top 3 products are the Gaming Monitor, Nintendo Switch, and the Sony PlayStation 5 Bundle. 
 
 <img width="1230" height="615" alt="image" src="https://github.com/user-attachments/assets/9fe3d224-4d09-4e0e-a93a-1878d62a19be" />
-Product AOV
+This graph shows the product AOV with a focus on the top 3 products that contributed the most to the total sales. The Gaming Monitor and the Nintendo Switch had stable pricing during the COVID period. On the other hand, the PS 5 bundle has fluctuated throughout the years. In 2019, the peak price was $1.859 in January, down to $1,482 in October. While in 2020, the peak price was $1.732 in January and dropped to $1.510 in May, but steadily rose to $1.710 in November. Most likely due to the high demand and/or promotions.
 
-<img width="1358" height="612" alt="image" src="https://github.com/user-attachments/assets/5621fbbf-2b14-49e1-a8b1-3171b40a09f5" />
-Product Share by Region
+<img width="1360" height="615" alt="image" src="https://github.com/user-attachments/assets/5621fbbf-2b14-49e1-a8b1-3171b40a09f5" />
+This graph shows the top 3 product shares by region, with NA dominating the sales of the top 3 products, followed by EMEA and APAC. Nintendo Switch contributed the most in sales in NA and EMEA, while the PS5 contributed the most in APAC and LATAM.
 
 <img width="1360" height="611" alt="image" src="https://github.com/user-attachments/assets/2979f69f-d864-45a7-bf0b-61a2d07ba0a0" />
 Product Share by Marketing Channel

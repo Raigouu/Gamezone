@@ -86,6 +86,19 @@ Focusing on the graphs of each product's performance, it is found that all produ
 
 Above is a dashboard created by Tableau. This dashboard intends to give an overview of product performance throughout the COVID period (2019 - 2020), with additional data for January and February 2021. Focusing on KPIs for the product team to help them make decisions on which products to focus on or to discontinue investing in. 
 
+<img width="1230" height="615" alt="image" src="https://github.com/user-attachments/assets/8a1aaffe-6014-404d-bdf7-d52c9ccfcf2a" />
+Sales by Product
+
+<img width="1230" height="615" alt="image" src="https://github.com/user-attachments/assets/9fe3d224-4d09-4e0e-a93a-1878d62a19be" />
+Product AOV
+
+<img width="1358" height="612" alt="image" src="https://github.com/user-attachments/assets/5621fbbf-2b14-49e1-a8b1-3171b40a09f5" />
+Product Share by Region
+
+<img width="1360" height="611" alt="image" src="https://github.com/user-attachments/assets/2979f69f-d864-45a7-bf0b-61a2d07ba0a0" />
+Product Share by Marketing Channel
+
+
 
 
 

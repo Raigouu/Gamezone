@@ -72,3 +72,4 @@ After joining the tables, there are 5 more errors in the data with value of EU a
 
 **Key Insights**
 			
+<img width="1682" height="667" alt="image" src="https://github.com/user-attachments/assets/ce61421a-7f88-4264-bb11-c52b26e3a905" />

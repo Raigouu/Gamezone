@@ -72,10 +72,12 @@ After joining the tables, there are 5 more errors in the data with value of EU a
 
 **Key Insights**
 			
-<img width="1682" height="667" alt="image" src="https://github.com/user-attachments/assets/ce61421a-7f88-4264-bb11-c52b26e3a905" />
+<img width="1751" height="669" alt="image" src="https://github.com/user-attachments/assets/8ade3557-21cc-4bf5-9024-1e57eb0a2647" />
 
-From the pivot table, it is found that the total sales during the COVID period (2019 - 2020), is $6.1m, with the best performing product being the gaming monitor (almost $2m in total sales) and the worst performing product is the Razer Pro gaming headset ($800).
 
+
+From the pivot table, it is found that the total sales during the COVID period (2019 - 2020) are $6.1 m, with the best performing product being the gaming monitor (almost $2m in total sales) and the worst performing product is the Razer Pro gaming headset ($800).
+Peaks of total sales are similar in 2019 and 2020, with them happened at September and December. These occurrences might happen due to them being the start of school and/or holiday seasons, when promotions might be pushed further.
 
 <img width="1379" height="141" alt="image" src="https://github.com/user-attachments/assets/5c4bac95-975b-404e-959e-b82bdb94e63f" />
 

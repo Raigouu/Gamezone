@@ -24,18 +24,22 @@ The dataset consists of 2 tables, which are 'orders' with a total row of 21,864 
 	- account_creation_method
 	- country_code
 
-In the table 'region', the table has columns of:
+In the table 'region', with a grain of 1 row represents the country code in a region, the table has columns of:
+
 	- country_code
 	- region (divided into 4 main regions, which are NA, EMEA, APAC, and LATAM)
 
 The main table of this dataset is the 'orders' table.
 
 **Objectives**
+
 The analysis result should be able to aid Gamezone's product team in making a decision on which product should be improved or discontinued due to its own performance. 
 
 **Data Preparation & Cleaning**
+
 During the cleaning process, below is the list of issues were found:
 'order' table
+
 	- order_id:
 		Even though it is supposed to be the unique identifier, it has duplicates that can be divided into two categories.
 			1. same order_id with the same user_id
@@ -57,6 +61,7 @@ During the cleaning process, below is the list of issues were found:
 		Found 37 blank values in the field, and they are converted into 'unknown' values.
 
 'region' table:
+
 	- region:
 		There are naming inconsistencies, missing values, and invalid values. For example, North America and NA, missing region codes for country codes IE and LB, and invalid values for country code MH and PG. 
 		Since, there is a way of retrieving the truth, these values are corrected into their respective region. IE and LB are included in EMEA, and MH and PG are included in APAC.

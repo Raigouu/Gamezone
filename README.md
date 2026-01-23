@@ -63,8 +63,9 @@ During the cleaning process, below is the list of issues were found:
 'region' table:
 
 	- region:
-		There are naming inconsistencies, missing values, and invalid values. For example, North America and NA, missing region codes for country codes IE and LB, and invalid values for country code MH and PG. 
-		Since, there is a way of retrieving the truth, these values are corrected into their respective region. IE and LB are included in EMEA, and MH and PG are included in APAC.
+		There are naming inconsistencies, missing values, and invalid values. 
+		For example, North America and NA, missing region codes for country codes IE and LB, and invalid values for country code MH and PG.
+		Since there is a way to retrieve the truth, these values are corrected into their respective region. IE and LB are included in EMEA, and MH and PG are included in APAC.
 
 After joining the tables, there are 5 more errors in the data with value of EU and AP. Therefore, the values in the country code are left as is, and the values in the region field are corrected into EMEA and APAC, respectively.
 

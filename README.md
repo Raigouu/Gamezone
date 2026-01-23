@@ -65,7 +65,7 @@ During the cleaning process, below is the list of issues were found:
 	- region:
 		There are naming inconsistencies, missing values, and invalid values. 
 		For example, North America and NA, missing region codes for country codes IE and LB, and invalid values for country code MH and PG.
-		Since there is a way to retrieve the truth, these values are corrected into their respective region. IE and LB are included in EMEA, and MH and PG are included in APAC.
+		Since there is a way to retrieve the truth, these values are corrected in their respective region. IE and LB are included in EMEA, and MH and PG are included in APAC.
 
 After joining the tables, there are 5 more errors in the data with values of EU and AP. Therefore, the values in the country code are left as is, and the values in the region field are corrected into EMEA and APAC, respectively.
 
@@ -73,12 +73,11 @@ After joining the tables, there are 5 more errors in the data with values of EU 
 ## **Key Insights**
 			
 <img width="1750" height="670" alt="image" src="https://github.com/user-attachments/assets/8ade3557-21cc-4bf5-9024-1e57eb0a2647" />
-
+<br/>
 From the pivot table, it is found that the total sales during the COVID period (2019 - 2020) are $6.1 m, with the best performing product being the gaming monitor (almost $2m in total sales) and the worst performing product is the Razer Pro gaming headset ($800).
 Peaks of total sales are similar in 2019 and 2020, with them happened at September and December. These occurrences might happen due to them being the start of school and/or holiday seasons, when promotions might be pushed further. Lastly, there seems to be a pattern where total sales tend to drop at the beginning of every new year; assumptions would be that there are no incentives to purchase products. Thus, resulting in a drop in total sales.
 
-<img width="1380" height="140" alt="image" src="https://github.com/user-attachments/assets/5c4bac95-975b-404e-959e-b82bdb94e63f" />
-
+<img width="1380" height="140" alt="image" src="https://github.com/user-attachments/assets/5c4bac95-975b-404e-959e-b82bdb94e63f" /><br/>\
 Focusing on the graphs of each product's performance, it is found that all products doubled in their sales during 2020. Moreover, the trends of every product are similar to one another, with peaks at the end of 2020 and a significant drop after.
 
 ### Product Analysis

@@ -3,7 +3,7 @@ Exploratory Data Analysis (EDA) and deep dive analysis of Gamezone's product per
 
 ## **Project Overview**
 
-This project aims to help Gamezone's product team by analyzing product performance during the COVID period (2019-2020) using Google Sheets as the main analysis tool and Tableau as the visualization tool. SQL is only used to show proficiency in using the tool. 
+This project aims to help Gamezone's product team by analyzing product performance during the COVID period (2019-2020) using Google Sheets as the main analysis tool and Tableau as the visualization tool. SQL is only used to show proficiency in using the tool. Click the link to see the SQL data hygiene script.
 
 KPIs such as overall sales, sales by product, AOV by product, Sales by Marketing Channel, Sales by Region, Top Product by Channel, and Top Product by Region are used as measurements to find which product performed best during the period. 
 
@@ -72,17 +72,18 @@ After joining the tables, there are 5 more errors in the data with values of EU 
 
 ## **Key Insights**
 			
-<img width="1751" height="669" alt="image" src="https://github.com/user-attachments/assets/8ade3557-21cc-4bf5-9024-1e57eb0a2647" />
+<img width="1750" height="670" alt="image" src="https://github.com/user-attachments/assets/8ade3557-21cc-4bf5-9024-1e57eb0a2647" />
 
 From the pivot table, it is found that the total sales during the COVID period (2019 - 2020) are $6.1 m, with the best performing product being the gaming monitor (almost $2m in total sales) and the worst performing product is the Razer Pro gaming headset ($800).
-Peaks of total sales are similar in 2019 and 2020, with them happened at September and December. These occurrences might happen due to them being the start of school and/or holiday seasons, when promotions might be pushed further. Lastly, there seems to be a pattern where total sales tend to drop at the beginning of every new year; assumptions would be that there are no incentives to purchase products. Thus, resulting in the drop in total sales.
+Peaks of total sales are similar in 2019 and 2020, with them happened at September and December. These occurrences might happen due to them being the start of school and/or holiday seasons, when promotions might be pushed further. Lastly, there seems to be a pattern where total sales tend to drop at the beginning of every new year; assumptions would be that there are no incentives to purchase products. Thus, resulting in a drop in total sales.
 
-<img width="1379" height="141" alt="image" src="https://github.com/user-attachments/assets/5c4bac95-975b-404e-959e-b82bdb94e63f" />
+<img width="1380" height="140" alt="image" src="https://github.com/user-attachments/assets/5c4bac95-975b-404e-959e-b82bdb94e63f" />
 
 Focusing on the graphs of each product's performance, it is found that all products doubled in their sales during 2020. Moreover, the trends of every product are similar to one another, with peaks at the end of 2020 and a significant drop after.
 
 ### Product Analysis
-<img width="1200" height="860" alt="image" src="https://github.com/user-attachments/assets/43f53fd9-6dd8-410c-9b07-b67b0a0e4005" />
+<img width="1200" height="815" alt="image" src="https://github.com/user-attachments/assets/98d97dd3-00f8-4aff-a775-bb6ce2386715" />
+
 
 Above is a dashboard created by Tableau. This dashboard intends to give an overview of product performance throughout the COVID period (2019 - 2020), with additional data for January and February 2021. Focusing on KPIs for the product team to help them make decisions on which products to focus on or to discontinue investing in. 
 
@@ -103,9 +104,24 @@ This graph shows the top 3 product shares by region, with NA dominating the sale
 
 This graph shows the top 3 product shares by marketing channel, with direct sales overwhelming other marketing channels, followed by email and affiliate channels. This should be voiced to the marketing team to find other ways of promoting the company and/or get more exposure to gain more customers that will help generate more sales.
 
+## **Recommendation**
+From the insights retrieved below are the recommendations for the product team and marketing team:
+Product team:
 
+	- Focus on enhancing the top 3 products
+	- Investigate the main drivers of the significant increase and the steep decline in 2020 sales of PS5 in EMEA
+	- Investigate why the Razer Pro Gaming Headset did not perform as expected
 
+Marketing team:
+	
+	- Focus on improving other marketing channels, such as email and affiliate
+	- Might be able to look into the social media marketing channel as an alternative, since people will not be able to go outside as much during COVID.
 
+Finance team:
 
+	- Investigate why the PS5 bundle fluctuated as much throughout the years. 
+	
+## **Limitations & Assumptions**
+The data analyzed does not represent the whole reason why Gamezone's total sales behaved. The current dataset focused more on products and factors that may impact product performance. Missing supporting data for the marketing team also made the analysis incomplete. During the period, there could be other efforts that could make the analysis better and more accurate. Lastly, data regarding pricing strategy could be appreciated to find what is going on with the PS5 fluctuations.
 
 

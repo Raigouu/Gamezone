@@ -10,24 +10,7 @@ KPIs such as overall sales, sales by product, AOV by product, Sales by Marketing
 ## **Dataset** 
 
 
-The dataset consists of 2 tables, which are 'orders' with a total row of 21,864 and 'region' with a total row of 193. In the table 'orders', with a grain of 1 row represents an order made by a customer. The table has columns of: 
-
-	- user_id
-	- order_id
-	- purchase_ts (purchase time stamp)
-	- ship_ts (shipping time stamp)
-	- product_name
-	- product_id
-	- usd_price
-	- purchase_platform
-	- marketing_channel
-	- account_creation_method
-	- country_code
-
-In the table 'region', with a grain of 1 row represents the country code in a region, the table has columns of:
-
-	- country_code
-	- region (divided into 4 main regions, which are NA, EMEA, APAC, and LATAM)
+The dataset consists of 2 tables, which are 'orders' and 'region'. The table 'orders' has one row for each order detail made by a customer. On the other hand, the 'region' table has one row that corresponds to a country in a region (focusing on NA, EMEA, APAC, and LATAM). Links to the dataset can be found [here](https://github.com/Raigouu/Gamezone/tree/main/Excel).
 
 The main table of this dataset is the 'orders' table.
 

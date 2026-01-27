@@ -58,7 +58,7 @@ After joining the tables, there are 5 more errors in the data with values of EU 
 			
 <img width="1750" height="670" alt="image" src="https://github.com/user-attachments/assets/8ade3557-21cc-4bf5-9024-1e57eb0a2647" /><br/>
 Total sales during the COVID period (2019 - 2020) are $6.1 m, with the best-performing product being the gaming monitor (almost $2m in total sales), and the worst-performing product was the Razer Pro gaming headset ($800).
-Peaks of total sales are similar in 2019 and 2020, which happened in September and December. These occurrences might happen due to it being the holiday season, when promotions (back-to-school, black friday, etc.) might be pushed further. Lastly, there seems to be a pattern where total sales tend to drop at the beginning of every new year; assumptions would be that there were no incentives to purchase products. Thus, resulting in a drop in total sales.<br/>
+Peaks of total sales are similar in 2019 and 2020, which happened in September and December, indicating seasonality-driven demand rather than COVID being the main driver of sales. Lastly, there seems to be a pattern where total sales tend to drop at the beginning of every new year; assumptions would be that there were no incentives to purchase products. Thus, resulting in a drop in total sales.<br/>
 
 <img width="1380" height="140" alt="image" src="https://github.com/user-attachments/assets/5c4bac95-975b-404e-959e-b82bdb94e63f" /><br/>
 All products doubled in sales during 2020. Moreover, the trends of every product are similar to one another, with peaks at the end of 2020 and a significant drop after.<br/>
@@ -68,16 +68,16 @@ All products doubled in sales during 2020. Moreover, the trends of every product
 This dashboard intends to give an overview of product performance throughout the COVID period (2019 - 2020), with additional data for January and February 2021. Focusing on KPIs for the product team to help them make decisions on which products to focus on or to discontinue investing in. The majority of sales are derived from NA compared to other regions.<br/>
 
 <img width="1230" height="615" alt="image" src="https://github.com/user-attachments/assets/8a1aaffe-6014-404d-bdf7-d52c9ccfcf2a" /><br/>
-This graph shows the sales by product with similar behavior throughout the years, peaking in September and December of each year (2019 - 2020) and then dropping significantly at the end of 2020. The top 3 products are the Gaming Monitor, Nintendo Switch, and the Sony PlayStation 5 Bundle. The PlayStation 5 Bundle outperformed the other top products at the end of 2020, but declined much more steeply than the other two. As one of the top sales contributors, this could heavily affect the total revenue. The product and finance team should investigate the next steps, such as pricing strategy and bundling strategy, to maintain revenue over the year. <br/>
+The PlayStation 5 Bundle outperformed the other top products at the end of 2020, but declined much more steeply than the other two. As one of the top sales contributors, this could heavily affect the total revenue. The product and finance team should investigate the next steps, such as pricing strategy and bundling strategy, to maintain revenue over the year. <br/>
 
 <img width="1230" height="615" alt="image" src="https://github.com/user-attachments/assets/9fe3d224-4d09-4e0e-a93a-1878d62a19be" /><br/>
-This graph shows the product AOV with a focus on the top 3 products that contributed the most to the total sales. The Gaming Monitor and the Nintendo Switch had stable pricing during the COVID period. On the other hand, the PS 5 bundle has fluctuated throughout the years. In 2019, the peak price was $1.859 in January, down to $1,482 in October. While in 2020, the peak price was $1.732 in January and dropped to $1.510 in May, but steadily rose to $1.710 in November. This instability in pricing could impact consumer and business confidence, such as consumer spending and ineffective investments. However, it can also be caused by inflation during the period, as people are spending less on tertiary needs and spending more on primary needs. Investigation on other drivers that could cause the price fluctuations is recommended.<br/>
+The Gaming Monitor and the Nintendo Switch had stable pricing during the COVID period. On the other hand, the PS 5 bundle has fluctuated throughout the years. In 2019, the peak price was $1.859 in January, down to $1,482 in October. While in 2020, the peak price was $1.732 in January and dropped to $1.510 in May, but steadily rose to $1.710 in November. This instability in pricing could impact consumer and business confidence, such as consumer spending and ineffective investments. However, it can also be caused by inflation during the period, as people are spending less on tertiary needs and spending more on primary needs. Investigation on other drivers that could cause the price fluctuations is recommended.<br/>
 
 <img width="1360" height="615" alt="image" src="https://github.com/user-attachments/assets/5621fbbf-2b14-49e1-a8b1-3171b40a09f5" /><br/>
-This graph shows the top 3 product shares by region, with NA dominating the sales of the top 3 products, followed by EMEA and APAC. Nintendo Switch contributed the most in sales in NA and EMEA, while the PS5 contributed the most in APAC and LATAM. Also, more than 50% of sales are derived from NA, which could cause disproportion in the future. Discuss with the respective region marketing teams in enhancing their strategies to increase sales in EMEA, APAC, and LATAM to balance out the sales. <br/>
+Nintendo Switch contributed the most in sales in NA and EMEA, while the PS5 contributed the most in APAC and LATAM. Also, more than 50% of sales are derived from NA, which could cause disproportion in the future. Discuss with the respective region marketing teams in enhancing their strategies to increase sales in EMEA, APAC, and LATAM to balance out the sales. <br/>
 
 <img width="1360" height="615" alt="image" src="https://github.com/user-attachments/assets/2979f69f-d864-45a7-bf0b-61a2d07ba0a0" /><br/>
-This graph shows the top 3 product shares by marketing channel, with direct sales overwhelming other marketing channels (more than 80% of sales come from the direct channel), followed by the rising effect of email and affiliate channels. This should be voiced to the marketing team to improve the email and affiliate channel to help with promoting the company and/or get more exposure to gain more customers that will help generate more sales. Also, proportional marketing channels will help the company not depend on only one marketing channel.
+Direct sale is overwhelming other marketing channels (more than 80% of sales come from the direct channel), followed by the rising effect of email and affiliate channels. This should be voiced to the marketing team to improve the email and affiliate channel to help with promoting the company and/or get more exposure to gain more customers that will help generate more sales. Also, proportional marketing channels will help the company not depend on only one marketing channel.
 
 ## **Recommendation**
 From the insights retrieved below are the recommendations for the product team and marketing team:
@@ -96,6 +96,12 @@ Finance team:
 
 	- Investigate why the PS5 bundle fluctuated as much throughout the years. 
 	- Collaborate with the product team on bundling strategies to attract more customers to spend
+
+Priorities:
+
+	- High Priority		: improve on other marketing channels, such as email and affiliate marketing
+	- Medium Priority	: product investment decision
+	- Low Priority		: PS 5 pricing strategy  
 	
 ## **Limitations & Assumptions**
 The data analyzed does not represent the whole reason why Gamezone's total sales behaved. The current dataset focused more on products and internal factors that may impact product performance. Missing supporting data for the marketing team also made the analysis incomplete. During the period, there could be other drivers that significantly affect Gamezone's sales, such as government policies, psychological behavior, health concerns, and other external factors. Lastly, data regarding pricing strategy could be appreciated to find what is going on with the PS5 fluctuations.
